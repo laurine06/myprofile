@@ -1,0 +1,130 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #aea89d;
+    color: #fff;
+    text-align: center;
+    padding: 2em;
+}
+
+.profile {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#image-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 0 auto
+}
+
+.info {
+    flex: 1;
+    display: inline-block;
+    vertical-align: middle;
+    align-items: center;
+    vertical-align: middle;
+}
+
+h2 {
+    color:#aea89d;
+}
+
+
+p {
+    line-height: 1.6;
+}
+
+.passions {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.Lespaysquejaimeraisvisiter {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.custom-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #aea89d; 
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .custom-button:hover {
+    background-color: rgb(229, 222, 215); 
+  }
+
+  .center-container {
+    text-align: center;
+  }
+  
+
+.social {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 1em;
+}
+
+.social h2 {
+    color: #aea89d;
+}
+
+.social a {
+    display: inline-block;
+    margin-right: 1em;
+    color: #aea89d;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social a:hover {
+    color: rgb(229, 222, 215);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: flex;
+    bottom: 0;
+    width: 100%;
+}
